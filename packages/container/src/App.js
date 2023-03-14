@@ -27,7 +27,7 @@ export default function App() {
     }
   }, [isSignedIn]);
 
-  console.log("Auth status:", isSignedIn, history.location.pathname);
+  //console.log("Auth status:", isSignedIn, history.location.pathname);
 
   return(
     <StylesProvider generateClassName={generateClassName}>

@@ -15,7 +15,7 @@ export default function AuthApp({onSignIn}) {
       onNavigate: ({pathname: nextPathname}) => {
         const { pathname } = history.location;
         if(pathname !== nextPathname) {
-          console.log(`Auth just navigated to: ${nextPathname}`)
+          //console.log(`Auth just navigated to: ${nextPathname}`)
           history.push(nextPathname);
         }
       },
